@@ -1,0 +1,38 @@
+# Ігноруємо файли кешу та скомпільовані файли Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Лог-файли
+*.log
+
+# Конфігураційні файли IDE
+.idea/
+.vscode/
+
+# Віртуальне середовище
+venv/
+env/
+har_and_cookies/
+
+# Файли залежностей (якщо використовуєте poetry або pipenv)
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# Файли бази даних SQLite (якщо є)
+*.sqlite3
+*.db
+
+# Ключі та конфіденційні файли (якщо є)
+.env
+*.key
+*.pem
+
+# Файли коду, згенеровані Jupyter Notebook
+.ipynb_checkpoints/
+
+# Системні файли macOS, Windows, Linux
+.DS_Store
+Thumbs.db
