@@ -109,4 +109,3 @@ To avoid legal issues, use the `openai` library instead of `g4f`:
 
 ---
 This structured README provides clear instructions for installation, usage, and customization of InfoHub-TelegramGptBot.
-
