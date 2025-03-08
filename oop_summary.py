@@ -9,7 +9,7 @@ import sys
 class TextSummarizer:
     def __init__(self):
         self.client = Client()
-        self.model = os.environ.get("LLM_MODEL", "gpt-4o-mini")
+        self.model = os.environ.get("LLM_MODEL", "gemini-1.5-flash")
         self.lang = os.environ.get("TS_LANG", "Ukrainian")
         self.chunk_size = int(os.environ.get("CHUNK_SIZE", 10000))
 

@@ -1,0 +1,68 @@
+('D:\\University\\3rd course\\2 semester\\IT Control '
+ 'Projects\\InfoHub\\InfoHub\\build\\oop_bot\\oop_bot.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\build\\oop_bot\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\build\\oop_bot\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\build\\oop_bot\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\build\\oop_bot\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\build\\oop_bot\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\build\\oop_bot\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('oop_bot',
+   'D:\\University\\3rd course\\2 semester\\IT Control '
+   'Projects\\InfoHub\\InfoHub\\oop_bot.py',
+   'PYSOURCE')],
+ 'python312.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

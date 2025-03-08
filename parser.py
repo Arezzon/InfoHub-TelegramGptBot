@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -30,14 +31,14 @@ def get_first_news():
             "thumb_url": thumb_url
         }
 
-    # Trim news_dict to keep only the latest 50 news
+    # Зберігаємо тільки останні 50 новин
     news_dict = dict(sorted(news_dict.items(), key=lambda x: x[1]['thumb_date'], reverse=True)[:50])
 
-    with open("news.json", "w") as file:
+    with open("news.json", "w", encoding="utf-8") as file:
         json.dump(news_dict, file, indent=4, ensure_ascii=False)
 
 def check_news_update():
-    with open("news.json") as file:
+    with open("news.json", "r", encoding="utf-8") as file:
         news_dict = json.load(file)
 
     headers = {
@@ -76,10 +77,10 @@ def check_news_update():
                 "thumb_url": thumb_url
             }
 
-    # Trim news_dict to keep only the latest 15 news
+    # Зберігаємо тільки останні 20 новин
     news_dict = dict(sorted(news_dict.items(), key=lambda x: x[1]['thumb_date'], reverse=True)[:20])
 
-    with open("news.json", "w") as file:
+    with open("news.json", "w", encoding="utf-8") as file:
         json.dump(news_dict, file, indent=4, ensure_ascii=False)
 
     return fresh_news
