@@ -99,6 +99,6 @@ class TelegramNewsBot:
         self.bot.register_next_step_handler(message, self.on_click)
 
 if __name__ == '__main__':
-    TOKEN = '6910762478:AAESZE8zlyYqAGIHABF2REBSznRg4Q7h7AA'
+    TOKEN = 'TOKEN'
     news_bot = TelegramNewsBot(TOKEN)
     news_bot.run()
