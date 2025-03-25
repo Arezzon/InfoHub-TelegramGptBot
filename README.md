@@ -1,4 +1,4 @@
-# InfoHub-TelegramGptBot
+**# InfoHub-TelegramGptBot
 ![News Image](https://iat.kpi.ua/wp-content/uploads/2019/10/news-3.jpg)
 ## Overview
 InfoHub-TelegramGptBot is an AI-powered chatbot that provides concise and clear summaries of news from various sources. It helps users stay informed efficiently by retrieving information from reliable websites on the Telegram platform. The target audience includes users who want quick and accurate news updates.
@@ -21,29 +21,20 @@ InfoHub-TelegramGptBot is designed to assist users in obtaining summarized news 
 #### 2.2 Running the Program
 1. Create a project directory.
 2. Inside the directory, create three `.py` files:
-   - **File_1:** Bot initialization script
-   - **File_2:** AI processing script
+   - **File_1:** Bot initialization script, AI processing script
    - **parser.py:** News parser
 3. Copy the required code from section 4.2 into these files.
-4. Open **File_1** and edit the following line:
-   ```python
-   process = subprocess.Popen(['<path_to_python.exe>', '<path_to_File_2>', last_line], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-   ```
-5. Install Telegram and visit [BotFather](https://t.me/BotFather).
-6. Create a new bot with `/newbot` and copy the token.
-7. Open **File_1** and insert the token:
-   ```python
-   TOKEN = '<your_bot_token>'
-   ```
-8. Run `parser.py`:
+4. Install Telegram and visit [BotFather](https://t.me/BotFather).
+5. Create a new bot with `/newbot` and copy the token.
+6. Run `parser.py`:
    ```sh
    python parser.py
    ```
-9. Run **File_1**:
+7. Run **File_1**:
    ```sh
    python File_1.py
    ```
-10. Open the Telegram bot and start using it.
+8. Open the Telegram bot and start using it.
 
 ### 3. Main Functions
 
@@ -74,9 +65,9 @@ To use a function, click the corresponding button in the Telegram chat.
 - News category (tag)
 
 #### 4.2 Modifying Settings
-- Open **File_2** and update:
+- Open **File_1** and update:
   ```python
-    self.model = os.environ.get("LLM_MODEL", "gpt-4o-mini")
+    self.model = os.environ.get("LLM_MODEL", "gemini-1.5-flash")
     self.lang = os.environ.get("TS_LANG", "Ukrainian")
     self.chunk_size = int(os.environ.get("CHUNK_SIZE", 10000))
   ```
@@ -94,12 +85,12 @@ To use a function, click the corresponding button in the Telegram chat.
 ## Instructions for Telegram Channel Owners & News Sites
 To avoid legal issues, use the `openai` library instead of `g4f`:
 1. Follow installation steps up to **2.2 Step 7**.
-2. Open **File_2**.
+2. Open **File_1**.
 3. Install `openai`:
    ```sh
    pip install openai
    ```
-4. Modify **File_2**:
+4. Modify **File_1**:
    ```python
    from openai import OpenAI
    OPENAI_API_KEY = '<your_api_key>'
@@ -108,4 +99,4 @@ To avoid legal issues, use the `openai` library instead of `g4f`:
 5. Continue with step **2.2 Step 8**.
 
 ---
-This structured README provides clear instructions for installation, usage, and customization of InfoHub-TelegramGptBot.
+This structured README provides clear instructions for installation, usage, and customization of InfoHub-TelegramGptBot.**
