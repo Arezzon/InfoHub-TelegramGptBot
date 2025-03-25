@@ -1,4 +1,4 @@
-**# InfoHub-TelegramGptBot
+# InfoHub-TelegramGptBot
 ![News Image](https://iat.kpi.ua/wp-content/uploads/2019/10/news-3.jpg)
 ## Overview
 InfoHub-TelegramGptBot is an AI-powered chatbot that provides concise and clear summaries of news from various sources. It helps users stay informed efficiently by retrieving information from reliable websites on the Telegram platform. The target audience includes users who want quick and accurate news updates.

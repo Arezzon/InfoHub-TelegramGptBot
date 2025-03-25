@@ -13,6 +13,8 @@ test_*.py
 .idea/
 .vscode/
 
+build/
+
 # Віртуальне середовище
 venv/
 env/
